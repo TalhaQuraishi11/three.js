@@ -1,0 +1,59 @@
+/* index.css */
+
+/* Apply a full-height and full-width to the wrapper to center the content */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Style for the card that wraps the content */
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Style for the color picker button */
+.color-picker-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 20;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Style for the color picker container */
+.color-picker {
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  z-index: 10;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Make sure the canvas takes full screen */
+.product-canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 80;
+  left: 0;
+}

@@ -1,0 +1,123 @@
+{
+    "title": "Sock (Basic Model)",
+    "thumbnail": null,
+    "options": {
+        "stageWidth": "1200",
+        "stageHeight": "730"
+    },
+    "views": [
+        {
+            "title": "Front",
+            "thumbnail": "preview_front.jpg",
+            "elements": [
+                {
+                    "type": "image",
+                    "title": "base",
+                    "source": "base_sock.png",
+                    "parameters": {
+                        "adminLocked": 1,
+                        "uploadZone": 0,
+                        "left": 600,
+                        "top": 365,
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "angle": 0,
+                        "price": 0,
+                        "originX": "center",
+                        "originY": "center",
+                        "showInColorSelection": 0,
+                        "opacity": 1,
+                        "removable": 0,
+                        "draggable": 0,
+                        "rotatable": 0,
+                        "resizable": 0,
+                        "zChangeable": 0,
+                        "topped": 0,
+                        "autoSelect": 0,
+                        "uniScalingUnlockable": 0,
+                        "excludeFromExport": 0,
+                        "advancedEditing": 0,
+                        "locked": 0,
+                        "bounding_box_control": 0,
+                        "boundingBoxMode": "inside",
+                        "curvable": 0
+                    }
+                },
+                {
+                    "type": "image",
+                    "title": "pattern",
+                    "source": "pattern_socks.png",
+                    "parameters": {
+                        "adminLocked": 1,
+                        "uploadZone": 0,
+                        "left": 600,
+                        "top": 365,
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "angle": 0,
+                        "price": 0,
+                        "replace": "pattern",
+                        "originX": "center",
+                        "originY": "center",
+                        "showInColorSelection": 0,
+                        "opacity": 1,
+                        "removable": 0,
+                        "draggable": 0,
+                        "rotatable": 0,
+                        "resizable": 0,
+                        "zChangeable": 0,
+                        "topped": 0,
+                        "autoSelect": 0,
+                        "uniScalingUnlockable": 0,
+                        "excludeFromExport": 0,
+                        "advancedEditing": 0,
+                        "locked": 0,
+                        "bounding_box_control": 0,
+                        "boundingBoxMode": "inside",
+                        "curvable": 0
+                    }
+                },
+                {
+                    "type": "text",
+                    "title": "Brand Text",
+                    "source": "Brand Text",
+                    "parameters": {
+                        "adminLocked": 0,
+                        "uploadZone": 0,
+                        "left": 406,
+                        "top": 413,
+                        "angle": 0,
+                        "originX": "center",
+                        "originY": "center",
+                        "showInColorSelection": 0,
+                        "colors": "#000",
+                        "removable": 1,
+                        "draggable": 0,
+                        "rotatable": 0,
+                        "resizable": 0,
+                        "zChangeable": 0,
+                        "topped": 0,
+                        "autoSelect": 0,
+                        "excludeFromExport": 0,
+                        "locked": 0,
+                        "bounding_box_control": 0,
+                        "boundingBoxMode": "inside",
+                        "fontFamily": "Arial",
+                        "editable": 1,
+                        "chargeAfterEditing": 0,
+                        "fontWeight": "normal",
+                        "fontStyle": "normal",
+                        "textDecoration": "normal",
+                        "textAlign": "left",
+                        "curvable": 0,
+                        "curved": 0,
+                        "curveReverse": 0,
+                        "textBox": 0,
+                        "textNumberPlaceholder": "none"
+                    }
+                }
+            ],
+            "options": []
+        }
+    ]
+}
